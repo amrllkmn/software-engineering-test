@@ -3,7 +3,7 @@ import seed
 import solution
 
 
-class TestSeed(unittest.TestCase):
+class TestSolution(unittest.TestCase):
     def test_seed_is_numeric(self):
         result = seed.result
         not_alpha = False
